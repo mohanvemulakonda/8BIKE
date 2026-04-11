@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 
 export function Ride() {
   return (
@@ -69,7 +69,8 @@ export function Ride() {
               Book a Test Ride
             </a>
           </div>
-          <FlagBar className="w-32 mx-auto mt-6" />
+
+
         </ScrollReveal>
       </div>
     </section>

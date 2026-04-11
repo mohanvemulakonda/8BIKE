@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Wordmark } from "./Wordmark";
-import { FlagBar } from "./FlagBar";
+
 import { Monogram } from "./Monogram";
 
 export function CTA() {
@@ -23,7 +23,7 @@ export function CTA() {
 
           <div className="relative">
             <Wordmark size="xl" />
-            <FlagBar className="w-40 mx-auto mt-4" />
+
 
             <p className="mt-8 text-text-tertiary text-sm md:text-base font-light max-w-lg mx-auto leading-relaxed">
               Ready to feel the difference? Configure your 8BIKE or get in

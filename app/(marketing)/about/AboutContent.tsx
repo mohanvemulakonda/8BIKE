@@ -6,7 +6,7 @@ import { Container } from "../../components/ui/Container";
 import { SectionHeader } from "../../components/ui/SectionHeader";
 import { Button } from "../../components/ui/Button";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 
 const values = [
   {
@@ -80,7 +80,8 @@ export function AboutContent() {
                 </p>
               </ScrollReveal>
               <ScrollReveal delay={0.3}>
-                <FlagBar className="w-24 mt-8" />
+
+
               </ScrollReveal>
             </div>
 
@@ -95,7 +96,8 @@ export function AboutContent() {
                     sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <div className="absolute inset-0 bg-[var(--bg-page)]/20" />
-                  <FlagBar className="absolute bottom-0 left-0 right-0 w-full h-[3px] rounded-none" />
+
+
                 </div>
               </ScrollReveal>
             </div>
@@ -123,7 +125,8 @@ export function AboutContent() {
                   <p className="text-sm text-text-tertiary font-light leading-relaxed">
                     {v.desc}
                   </p>
-                  <FlagBar className="w-16 mt-6" />
+
+
                 </div>
               </StaggerItem>
             ))}

@@ -4,7 +4,7 @@ import { PageHero } from "../../components/ui/PageHero";
 import { Container } from "../../components/ui/Container";
 import { Button } from "../../components/ui/Button";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 import { Monogram } from "../../components/Monogram";
 import { Wordmark } from "../../components/Wordmark";
 import { IconDownload, IconFile, IconImage } from "../../components/ui/Icon";

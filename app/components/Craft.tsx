@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 
 export function Craft() {
   return (
@@ -79,9 +79,8 @@ export function Craft() {
               ))}
             </div>
 
-            <ScrollReveal delay={0.7}>
-              <FlagBar className="w-20" />
-            </ScrollReveal>
+
+
           </div>
         </div>
       </div>

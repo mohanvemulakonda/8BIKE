@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { Container } from "../../components/ui/Container";
-import { FlagBar } from "../../components/FlagBar";
+
 import { Monogram } from "../../components/Monogram";
 
 export const metadata: Metadata = {
@@ -19,7 +19,8 @@ export default function ImprintPage() {
           <h1 className="font-display text-5xl md:text-7xl tracking-wider text-white mb-4">
             IMPRINT
           </h1>
-          <FlagBar className="w-24 mb-6" />
+
+
           <p className="text-text-muted text-xs">Impressum gem. 5 TMG</p>
         </Container>
       </section>

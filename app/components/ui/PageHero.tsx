@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { FlagBar } from "../FlagBar";
+
 
 interface PageHeroProps {
   tag: string;
@@ -41,7 +41,8 @@ export function PageHero({ tag, title, description, image, compact = false }: Pa
           <h1 className="font-display text-5xl md:text-7xl tracking-wider text-white mb-4">
             {title}
           </h1>
-          <FlagBar className="w-24 mb-6" />
+
+
           {description && (
             <p className="max-w-xl text-text-tertiary text-sm md:text-base font-light leading-relaxed">
               {description}

@@ -39,7 +39,8 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <Wordmark size="md" />
-            <FlagBar className="w-20 mt-2" />
+
+
             <p className="text-xs text-text-muted mt-4 leading-relaxed">
               Designed in Hamburg
               <br />

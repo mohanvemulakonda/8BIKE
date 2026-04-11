@@ -4,10 +4,13 @@ interface FlagBarProps {
 
 export function FlagBar({ className = "" }: FlagBarProps) {
   return (
-    <div className={`flag-bar ${className}`}>
-      <span style={{ background: "#222" }} />
-      <span style={{ background: "#DD0000" }} />
-      <span style={{ background: "#FFCC00" }} />
-    </div>
+    <div
+      className={`${className}`}
+      style={{
+        height: "inherit",
+        borderRadius: "inherit",
+        background: "linear-gradient(90deg, #DD0000 0%, #880000 100%)",
+      }}
+    />
   );
 }

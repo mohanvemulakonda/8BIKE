@@ -1,7 +1,7 @@
 "use client";
 
 import { ScrollReveal, Stagger, StaggerItem } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 
 const values = [
   {
@@ -56,7 +56,7 @@ export function About() {
                 <p className="text-sm text-text-tertiary font-light leading-relaxed">
                   {v.desc}
                 </p>
-                <FlagBar className="w-16 mt-6" />
+
               </div>
             </StaggerItem>
           ))}

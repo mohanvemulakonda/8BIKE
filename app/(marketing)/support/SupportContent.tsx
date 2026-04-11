@@ -4,7 +4,7 @@ import { PageHero } from "../../components/ui/PageHero";
 import { Container } from "../../components/ui/Container";
 import { Button } from "../../components/ui/Button";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 import { IconRuler, IconWrench, IconBook, IconBox, IconShield, IconHelp } from "../../components/ui/Icon";
 
 const categories = [

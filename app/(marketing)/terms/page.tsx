@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { Container } from "../../components/ui/Container";
-import { FlagBar } from "../../components/FlagBar";
+
 
 export const metadata: Metadata = {
   title: "Terms & Conditions | 8BIKE",
@@ -18,7 +18,8 @@ export default function TermsPage() {
           <h1 className="font-display text-5xl md:text-7xl tracking-wider text-white mb-4">
             TERMS & CONDITIONS
           </h1>
-          <FlagBar className="w-24 mb-6" />
+
+
           <p className="text-text-muted text-xs">Last updated: January 2026</p>
         </Container>
       </section>

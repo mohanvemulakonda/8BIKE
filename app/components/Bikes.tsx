@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { ScrollReveal } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 import { ArrowRight } from "lucide-react";
 import { lineup } from "../data/bikes";
 
@@ -100,7 +100,7 @@ export function Bikes() {
                           &euro;{bike.price}
                         </p>
                       </div>
-                      <FlagBar className="absolute bottom-0 left-0 right-0 w-full h-[2px] rounded-none" />
+
                     </div>
 
                     {/* Info */}

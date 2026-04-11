@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { PageHero } from "../../components/ui/PageHero";
 import { Container } from "../../components/ui/Container";
-import { FlagBar } from "../../components/FlagBar";
+
 import { lineup } from "../../data/bikes";
 
 export function BikesContent() {
@@ -97,7 +97,8 @@ export function BikesContent() {
                             &euro;{bike.price}
                           </p>
                         </div>
-                        <FlagBar className="absolute bottom-0 left-0 right-0 w-full h-[2px] rounded-none" />
+
+
                       </div>
 
                       <div className="p-6">

@@ -7,7 +7,7 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Container } from "../../../components/ui/Container";
 import { Button } from "../../../components/ui/Button";
 import { SpecRow } from "../../../components/ui/SpecRow";
-import { FlagBar } from "../../../components/FlagBar";
+
 import { ScrollReveal } from "../../../components/ScrollReveal";
 import type { Bike } from "../../../data/bikes";
 
@@ -65,7 +65,8 @@ export function BikeDetailContent({ bike }: Props) {
                   priority
                 />
                 <div className="absolute inset-0 bg-[var(--bg-page)]/10" />
-                <FlagBar className="absolute bottom-0 left-0 right-0 w-full h-[3px] rounded-none" />
+
+
               </div>
 
               {/* Info */}
@@ -79,7 +80,8 @@ export function BikeDetailContent({ bike }: Props) {
                 <p className="text-text-secondary text-base italic mb-4">
                   {bike.tagline}
                 </p>
-                <FlagBar className="w-24 mb-6" />
+
+
 
                 <div className="flex items-baseline gap-2 mb-6">
                   <span className="text-[10px] tracking-[2px] uppercase text-text-muted">

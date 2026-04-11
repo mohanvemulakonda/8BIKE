@@ -8,7 +8,7 @@ import { StatBlock } from "../../components/ui/StatBlock";
 import { SpecRow } from "../../components/ui/SpecRow";
 import { Button } from "../../components/ui/Button";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 
 const stats = [
   { value: "8.2", unit: "kg", label: "Frame Weight" },
@@ -133,7 +133,8 @@ export function EngineeringContent() {
                 </p>
               </ScrollReveal>
               <ScrollReveal delay={0.4}>
-                <FlagBar className="w-24 mt-8" />
+
+
               </ScrollReveal>
             </div>
 

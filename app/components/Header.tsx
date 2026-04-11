@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Wordmark } from "./Wordmark";
-import { FlagBar } from "./FlagBar";
+
 
 const links = [
   { label: "Bikes", href: "/bikes" },
@@ -24,7 +24,8 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <Wordmark size="sm" />
-            <FlagBar className="w-full h-[2px]" />
+
+
           </Link>
 
           {/* Desktop nav */}
@@ -81,7 +82,8 @@ export function Header() {
                 </Link>
               ))}
             </nav>
-            <FlagBar className="w-full mt-6" />
+
+
             <Link
               href="/contact"
               onClick={() => setOpen(false)}

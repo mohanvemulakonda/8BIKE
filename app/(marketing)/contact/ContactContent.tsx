@@ -4,7 +4,7 @@ import { useState } from "react";
 import { PageHero } from "../../components/ui/PageHero";
 import { Container } from "../../components/ui/Container";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 import { IconMail, IconPin, IconPhone } from "../../components/ui/Icon";
 
 const contactMethods = [
@@ -60,7 +60,8 @@ export function ContactContent() {
                     <p className="text-text-tertiary text-sm font-light">
                       Thank you for reaching out. We'll get back to you within 24 hours.
                     </p>
-                    <FlagBar className="w-16 mx-auto mt-6" />
+
+
                   </div>
                 </ScrollReveal>
               ) : (
@@ -191,7 +192,8 @@ export function ContactContent() {
                   <p className="text-sm text-text-secondary">
                     dealers@8bike.de
                   </p>
-                  <FlagBar className="w-16 mt-4" />
+
+
                 </div>
               </ScrollReveal>
             </div>

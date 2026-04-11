@@ -4,7 +4,7 @@ import { useState } from "react";
 import { PageHero } from "../../components/ui/PageHero";
 import { Container } from "../../components/ui/Container";
 import { ScrollReveal, Stagger, StaggerItem } from "../../components/ScrollReveal";
-import { FlagBar } from "../../components/FlagBar";
+
 import { IconPin } from "../../components/ui/Icon";
 import { lineup } from "../../data/bikes";
 
@@ -49,7 +49,8 @@ export function TestRideContent() {
                     <p className="text-text-tertiary text-sm font-light">
                       We'll send you a confirmation email with all the details shortly.
                     </p>
-                    <FlagBar className="w-16 mx-auto mt-6" />
+
+
                   </div>
                 </ScrollReveal>
               ) : (
@@ -183,7 +184,8 @@ export function TestRideContent() {
                     3 days in advance. All test rides are free and typically last 30-60 minutes.
                     Bring your cycling shoes and helmet — we provide everything else.
                   </p>
-                  <FlagBar className="w-16 mt-4" />
+
+
                 </div>
               </ScrollReveal>
             </div>

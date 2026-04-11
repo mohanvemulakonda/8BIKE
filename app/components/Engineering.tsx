@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 
 const specs = [
   { val: "8.2", unit: "kg", label: "Frame Weight" },
@@ -68,9 +68,8 @@ export function Engineering() {
                 feel is the road.
               </p>
             </ScrollReveal>
-            <ScrollReveal delay={0.4}>
-              <FlagBar className="w-24 mt-8" />
-            </ScrollReveal>
+
+
           </div>
 
           {/* Right: spec blocks */}

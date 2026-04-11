@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
-import { FlagBar } from "./FlagBar";
+
 
 export function Lifestyle() {
   return (
@@ -21,10 +21,8 @@ export function Lifestyle() {
               />
               {/* Desaturated overlay for brand mood */}
               <div className="absolute inset-0 bg-[var(--bg-page)]/30 mix-blend-color" />
-              {/* Flag bar at bottom */}
-              <div className="absolute bottom-0 left-0 right-0">
-                <FlagBar className="w-full h-[3px] rounded-none" />
-              </div>
+
+
             </div>
           </ScrollReveal>
 
