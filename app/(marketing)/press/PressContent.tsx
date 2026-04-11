@@ -30,9 +30,9 @@ const pressReleases = [
   },
   {
     date: "June 2024",
-    title: "Stuttgart University Wind Tunnel Partnership",
+    title: "Hamburg University Wind Tunnel Partnership",
     summary:
-      "8BIKE partners with Stuttgart University's aerospace wind tunnel facility for next-generation frame development.",
+      "8BIKE partners with Hamburg University's aerospace wind tunnel facility for next-generation frame development.",
   },
 ];
 

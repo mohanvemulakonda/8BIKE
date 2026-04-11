@@ -17,14 +17,14 @@ const contactMethods = [
   {
     icon: IconPhone,
     title: "Phone",
-    detail: "+49 711 000 0000",
+    detail: "+49 40 000 0000",
     desc: "Mon-Fri, 9:00-17:00 CET",
   },
   {
     icon: IconPin,
     title: "Headquarters",
-    detail: "Stuttgart, Germany",
-    desc: "8BIKE GmbH, Industriestrasse 42",
+    detail: "Hamburg, Germany",
+    desc: "8BIKE GmbH, Hafenstrasse 42",
   },
 ];
 

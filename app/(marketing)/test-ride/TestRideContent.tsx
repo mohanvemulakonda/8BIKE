@@ -9,7 +9,7 @@ import { IconPin } from "../../components/ui/Icon";
 import { lineup } from "../../data/bikes";
 
 const locations = [
-  { city: "Stuttgart", country: "Germany", address: "8BIKE HQ, Industriestrasse 42" },
+  { city: "Hamburg", country: "Germany", address: "8BIKE HQ, Hafenstrasse 42" },
   { city: "Munich", country: "Germany", address: "8BIKE Store, Marienplatz 8" },
   { city: "Berlin", country: "Germany", address: "8BIKE Pop-up, Unter den Linden 21" },
   { city: "Zurich", country: "Switzerland", address: "Velohaus Zurich, Bahnhofstrasse 15" },

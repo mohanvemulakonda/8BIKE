@@ -87,7 +87,7 @@ export default function TermsPage() {
               <h2 className="text-lg font-semibold text-white mb-4">7. Governing Law</h2>
               <p>
                 These terms are governed by the laws of the Federal Republic of Germany. The place
-                of jurisdiction is Stuttgart, Germany. If any provision of these terms is found to be
+                of jurisdiction is Hamburg, Germany. If any provision of these terms is found to be
                 invalid, the remaining provisions shall remain in full force and effect.
               </p>
             </div>
@@ -96,7 +96,7 @@ export default function TermsPage() {
               <h2 className="text-lg font-semibold text-white mb-4">8. Contact</h2>
               <p>
                 For questions regarding these terms, contact us at legal@8bike.de or write to:
-                8BIKE GmbH, Industriestrasse 42, 70178 Stuttgart, Germany.
+                8BIKE GmbH, Hafenstrasse 42, 20459 Hamburg, Germany.
               </p>
             </div>
           </div>

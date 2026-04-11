@@ -32,9 +32,9 @@ export default function ImprintPage() {
               <p>
                 8BIKE GmbH
                 <br />
-                Industriestrasse 42
+                Hafenstrasse 42
                 <br />
-                70178 Stuttgart
+                20459 Hamburg
                 <br />
                 Germany
               </p>
@@ -43,7 +43,7 @@ export default function ImprintPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">Contact</h2>
               <p>
-                Phone: +49 711 000 0000
+                Phone: +49 40 000 0000
                 <br />
                 Email: hello@8bike.de
                 <br />
@@ -59,7 +59,7 @@ export default function ImprintPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">Registration</h2>
               <p>
-                Commercial Register: Amtsgericht Stuttgart
+                Commercial Register: Amtsgericht Hamburg
                 <br />
                 Registration Number: HRB [Number]
                 <br />
@@ -74,7 +74,7 @@ export default function ImprintPage() {
               <p>
                 Responsible according to 18 Abs. 2 MStV:
                 <br />
-                [Name], Industriestrasse 42, 70178 Stuttgart
+                [Name], Hafenstrasse 42, 20459 Hamburg
               </p>
             </div>
 

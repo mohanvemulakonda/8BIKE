@@ -41,7 +41,7 @@ export function Footer() {
             <Wordmark size="md" />
             <FlagBar className="w-20 mt-2" />
             <p className="text-xs text-text-muted mt-4 leading-relaxed">
-              Designed in Stuttgart
+              Designed in Hamburg
               <br />
               Pure Ride. Nothing Else.
             </p>

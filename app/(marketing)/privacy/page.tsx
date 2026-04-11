@@ -29,7 +29,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">1. Data Controller</h2>
               <p>
-                8BIKE GmbH, Industriestrasse 42, 70178 Stuttgart, Germany ("8BIKE", "we", "us")
+                8BIKE GmbH, Hafenstrasse 42, 20459 Hamburg, Germany ("8BIKE", "we", "us")
                 is the data controller responsible for processing your personal data in accordance
                 with the EU General Data Protection Regulation (GDPR).
               </p>
@@ -121,7 +121,7 @@ export default function PrivacyPage() {
               <h2 className="text-lg font-semibold text-white mb-4">8. Contact</h2>
               <p>
                 For privacy-related inquiries, contact our Data Protection Officer at privacy@8bike.de
-                or write to: 8BIKE GmbH, Attn: Data Protection, Industriestrasse 42, 70178 Stuttgart,
+                or write to: 8BIKE GmbH, Attn: Data Protection, Hafenstrasse 42, 20459 Hamburg,
                 Germany.
               </p>
             </div>

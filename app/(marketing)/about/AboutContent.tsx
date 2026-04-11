@@ -27,12 +27,12 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2018", event: "8BIKE founded in Stuttgart, Germany" },
+  { year: "2018", event: "8BIKE founded in Hamburg, Germany" },
   { year: "2019", event: "First carbon frame prototype completed" },
   { year: "2020", event: "Carbon Pro 8.1 enters production" },
   { year: "2021", event: "Mountain and gravel lines launched" },
   { year: "2022", event: "European dealer network established" },
-  { year: "2023", event: "Wind tunnel partnership with Stuttgart University" },
+  { year: "2023", event: "Wind tunnel partnership with Hamburg University" },
   { year: "2024", event: "Aero 8.3 wins design award" },
   { year: "2025", event: "Global expansion begins" },
 ];
