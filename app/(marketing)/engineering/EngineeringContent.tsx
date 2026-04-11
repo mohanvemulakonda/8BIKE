@@ -163,7 +163,7 @@ export function EngineeringContent() {
               EXPERIENCE THE DIFFERENCE
             </h2>
             <p className="text-text-tertiary text-sm font-light max-w-md mx-auto leading-relaxed mb-8">
-              Feel what German engineering means on two wheels. Book a test ride today.
+              Feel the difference on two wheels. Book a test ride today.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button href="/test-ride">Book a Test Ride</Button>

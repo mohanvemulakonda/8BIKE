@@ -4,7 +4,7 @@ import { AboutContent } from "./AboutContent";
 export const metadata: Metadata = {
   title: "About | 8BIKE",
   description:
-    "8BIKE is a German cycling brand rooted in precision engineering. Learn about our philosophy, our team, and why we build bikes differently.",
+    "Learn about 8BIKE — our philosophy, our team, and why we build bikes for riders who feel the difference.",
 };
 
 export default function AboutPage() {

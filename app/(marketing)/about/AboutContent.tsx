@@ -17,7 +17,7 @@ const values = [
   {
     number: "02",
     title: "Engineering",
-    desc: "German engineering philosophy applied to cycling. Function defines form. Every design decision is validated through testing.",
+    desc: "Every component chosen for the ride. Function defines form. Every design decision is validated through testing.",
   },
   {
     number: "03",
@@ -42,8 +42,8 @@ export function AboutContent() {
     <>
       <PageHero
         tag="About"
-        title="BORN IN GERMANY"
-        description="8BIKE is not just a brand. It is a commitment to precision — the same engineering discipline that built autobahns and precision machinery, now applied to every frame we produce."
+        title="BUILT FOR RIDERS"
+        description="8BIKE exists for one reason — to build bikes that disappear beneath you, so all you feel is the road, the climb, and the ride."
         image="/images/hero-lifestyle.jpg"
       />
 
@@ -60,9 +60,9 @@ export function AboutContent() {
             <div>
               <ScrollReveal>
                 <p className="text-text-secondary text-base md:text-lg font-light leading-[1.9] mb-6">
-                  We started 8BIKE with a simple question: what would happen if you applied
-                  the same engineering rigor used in German automotive and aerospace
-                  manufacturing to bicycle design?
+                  We started 8BIKE with a simple question: what would a bike look like
+                  if every decision was made by riders, for riders — with no
+                  compromises for marketing or trends?
                 </p>
               </ScrollReveal>
               <ScrollReveal delay={0.1}>
@@ -166,7 +166,7 @@ export function AboutContent() {
               RIDE WITH US
             </h2>
             <p className="text-text-tertiary text-sm md:text-base font-light max-w-lg mx-auto leading-relaxed mb-8">
-              Experience German precision cycling. Book a test ride or explore the full lineup.
+              Feel the difference for yourself. Book a test ride or explore the full lineup.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button href="/test-ride">Book a Test Ride</Button>

@@ -12,7 +12,7 @@ const values = [
   {
     number: "02",
     title: "Engineering",
-    desc: "German engineering philosophy applied to cycling. Function defines form.",
+    desc: "Every component chosen for the ride. Nothing added that doesn't make you faster.",
   },
   {
     number: "03",
@@ -32,16 +32,16 @@ export function About() {
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
           <h2 className="font-display text-4xl md:text-6xl tracking-wider text-white mb-4">
-            BORN IN GERMANY.
+            BUILT FOR RIDERS.
             <br />
-            BUILT TO PERFORM.
+            BY RIDERS.
           </h2>
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
           <p className="max-w-xl text-text-tertiary text-sm md:text-base font-light leading-relaxed mb-16">
-            8BIKE is not just a brand. It is a commitment to precision — the same
-            engineering discipline that built autobahns and precision machinery,
-            now applied to every frame we produce.
+            8BIKE exists for one reason — to build bikes that disappear
+            beneath you, so all you feel is the road, the climb, and
+            the ride.
           </p>
         </ScrollReveal>
 

@@ -41,9 +41,9 @@ export function Footer() {
             <Wordmark size="md" />
             <FlagBar className="w-20 mt-2" />
             <p className="text-xs text-text-muted mt-4 leading-relaxed">
-              German Engineered
+              Designed in Stuttgart
               <br />
-              Precision Cycling
+              Pure Ride. Nothing Else.
             </p>
           </div>
 

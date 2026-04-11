@@ -14,7 +14,7 @@ const pressReleases = [
     date: "March 2025",
     title: "8BIKE Announces Global Expansion",
     summary:
-      "German cycling brand 8BIKE expands dealer network to 15 countries, bringing precision-engineered bikes to riders worldwide.",
+      "8BIKE expands dealer network to 15 countries, bringing precision-built bikes to riders worldwide.",
   },
   {
     date: "January 2025",

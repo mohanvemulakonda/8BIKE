@@ -55,9 +55,7 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.7 }}
           className="mt-6 text-sm md:text-base text-white/50 font-light max-w-sm mx-auto leading-relaxed"
         >
-          German engineered. Precision built.
-          <br />
-          Every ride, earned.
+          Pure ride. Nothing else.
         </motion.p>
 
         <motion.div

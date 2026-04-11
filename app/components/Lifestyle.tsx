@@ -44,9 +44,8 @@ export function Lifestyle() {
             </ScrollReveal>
             <ScrollReveal delay={0.3}>
               <p className="text-text-tertiary text-sm md:text-base font-light leading-relaxed mb-6">
-                From the winding passes of the Alps to the flat roads of Northern
-                Germany — every 8BIKE is engineered for the moment the wheels
-                start turning.
+                From alpine switchbacks to coastal flats — every 8BIKE is
+                built for the moment the wheels start turning.
               </p>
             </ScrollReveal>
             <ScrollReveal delay={0.4}>

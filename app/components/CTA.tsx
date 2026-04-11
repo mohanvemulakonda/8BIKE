@@ -26,7 +26,7 @@ export function CTA() {
             <FlagBar className="w-40 mx-auto mt-4" />
 
             <p className="mt-8 text-text-tertiary text-sm md:text-base font-light max-w-lg mx-auto leading-relaxed">
-              Ready to ride German precision? Configure your 8BIKE or get in
+              Ready to feel the difference? Configure your 8BIKE or get in
               touch with our team.
             </p>
 

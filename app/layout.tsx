@@ -16,21 +16,21 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "8BIKE | German Engineered Cycling",
+  title: "8BIKE | Pure Ride. Nothing Else.",
   description:
-    "Premium cycling brand rooted in German engineering. Precision-built bikes for riders who demand the best.",
+    "Premium road, mountain, and gravel bikes for riders who feel the difference. Pure ride. Nothing else.",
   keywords: [
     "8BIKE",
-    "German bikes",
+    "performance bikes",
     "cycling",
     "carbon bikes",
     "road bikes",
-    "precision cycling",
+    "gravel bikes",
   ],
   openGraph: {
-    title: "8BIKE | German Engineered Cycling",
+    title: "8BIKE | Pure Ride. Nothing Else.",
     description:
-      "Premium cycling brand rooted in German engineering. Precision-built bikes for riders who demand the best.",
+      "Premium road, mountain, and gravel bikes for riders who feel the difference. Pure ride. Nothing else.",
     siteName: "8BIKE",
     type: "website",
   },
