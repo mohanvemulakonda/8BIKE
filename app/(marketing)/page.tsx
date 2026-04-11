@@ -1,4 +1,4 @@
-import { Hero } from "../components/Hero";
+import { HeroVideo } from "../components/HeroVideo";
 import { About } from "../components/About";
 import { Lifestyle } from "../components/Lifestyle";
 import { Engineering } from "../components/Engineering";
@@ -8,7 +8,7 @@ import { CTA } from "../components/CTA";
 export default function Home() {
   return (
     <>
-      <Hero />
+      <HeroVideo />
       <About />
       <Lifestyle />
       <Engineering />
