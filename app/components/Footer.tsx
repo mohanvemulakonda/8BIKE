@@ -39,8 +39,11 @@ export function Footer() {
           {/* Brand column */}
           <div className="col-span-2 md:col-span-1">
             <Wordmark size="md" />
-
-
+            <div className="flex w-20 h-[2px] mt-2 rounded-sm overflow-hidden">
+              <span className="flex-1" style={{ background: "#222" }} />
+              <span className="flex-1" style={{ background: "#DD0000" }} />
+              <span className="flex-1" style={{ background: "#FFCC00" }} />
+            </div>
             <p className="text-xs text-text-muted mt-4 leading-relaxed">
               Designed in Hamburg
               <br />
@@ -80,11 +83,15 @@ export function Footer() {
               <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
               <Link href="/imprint" className="hover:text-white transition-colors">Imprint</Link>
             </div>
-            <Monogram size={32} variant="gradient-dark" bgColor="#0e0e0e" />
+            <Monogram size={32} variant="white" />
           </div>
         </div>
 
-        <FlagBar className="w-full h-[3px] rounded-none" />
+        <div className="flex w-full h-[3px] rounded-none overflow-hidden">
+          <span className="flex-1" style={{ background: "#222" }} />
+          <span className="flex-1" style={{ background: "#DD0000" }} />
+          <span className="flex-1" style={{ background: "#FFCC00" }} />
+        </div>
       </div>
     </footer>
   );

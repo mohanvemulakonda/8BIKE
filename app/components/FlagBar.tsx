@@ -5,10 +5,8 @@ interface FlagBarProps {
 export function FlagBar({ className = "" }: FlagBarProps) {
   return (
     <div
-      className={`${className}`}
+      className={`h-[3px] rounded-sm ${className}`}
       style={{
-        height: "inherit",
-        borderRadius: "inherit",
         background: "linear-gradient(90deg, #DD0000 0%, #880000 100%)",
       }}
     />

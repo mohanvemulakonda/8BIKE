@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FlagBar } from "./FlagBar";
+import { Monogram } from "./Monogram";
 import { ArrowDown } from "lucide-react";
 
 export function HeroVideo() {
@@ -38,6 +39,15 @@ export function HeroVideo() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
         >
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="mb-6"
+          >
+            <Monogram size={56} variant="white" className="mx-auto" />
+          </motion.div>
+
           <motion.h1
             className="font-display text-6xl md:text-8xl lg:text-9xl tracking-[12px] md:tracking-[20px] text-white -skew-x-[8deg]"
             initial={{ opacity: 0, letterSpacing: "40px" }}

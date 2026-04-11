@@ -5,7 +5,8 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Wordmark } from "./Wordmark";
-
+import { FlagBar } from "./FlagBar";
+import { Monogram } from "./Monogram";
 
 const links = [
   { label: "Bikes", href: "/bikes" },
@@ -24,8 +25,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex flex-col">
             <Wordmark size="sm" />
-
-
+            <FlagBar className="w-full h-[2px] mt-0.5" />
           </Link>
 
           {/* Desktop nav */}
@@ -41,13 +41,16 @@ export function Header() {
             ))}
           </nav>
 
-          {/* Desktop CTA */}
-          <Link
-            href="/contact"
-            className="hidden md:inline-flex items-center px-5 py-2 bg-red text-white text-[10px] font-semibold tracking-widest uppercase rounded-md hover:bg-red-hover transition-colors duration-150"
-          >
-            Get in Touch
-          </Link>
+          {/* Desktop CTA + Monogram */}
+          <div className="hidden md:flex items-center gap-4">
+            <Link
+              href="/contact"
+              className="inline-flex items-center px-5 py-2 bg-red text-white text-[10px] font-semibold tracking-widest uppercase rounded-md hover:bg-red-hover transition-colors duration-150"
+            >
+              Get in Touch
+            </Link>
+            <Monogram size={28} variant="white" />
+          </div>
 
           {/* Mobile toggle */}
           <button
