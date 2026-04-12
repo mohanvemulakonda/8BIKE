@@ -13,7 +13,7 @@ export function Craft() {
           <ScrollReveal direction="left">
             <div className="relative aspect-[3/4] md:aspect-auto md:h-full min-h-[500px] rounded-2xl lg:rounded-r-none overflow-hidden">
               <Image
-                src="/images/detail-wheel.jpg"
+                src="/images/closeup-cogwheel.jpg"
                 alt="Carbon fork and wheel close-up"
                 fill
                 className="object-cover"

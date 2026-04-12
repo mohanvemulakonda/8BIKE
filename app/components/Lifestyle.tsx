@@ -13,8 +13,8 @@ export function Lifestyle() {
           <ScrollReveal direction="left">
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
               <Image
-                src="/images/lifestyle-riders.jpg"
-                alt="Riders on EIGHT cycles at sunset"
+                src="/images/two-riders-sunset.jpg"
+                alt="Two riders at sunset"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"

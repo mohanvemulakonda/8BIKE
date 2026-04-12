@@ -18,7 +18,7 @@ export function Engineering() {
       <ScrollReveal>
         <div className="relative w-full aspect-[3/1] md:aspect-[4/1] overflow-hidden">
           <Image
-            src="/images/detail-wheel-closeup.jpg"
+            src="/images/cyclist-resting.jpg"
             alt="Carbon fork and wheel detail"
             fill
             className="object-cover"
