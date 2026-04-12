@@ -16,7 +16,7 @@ export function HeroVideo() {
         transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
       >
         <Image
-          src="/images/cyclist-silhouette-racing.jpg"
+          src="/images/hero-mountain-road.jpg"
           alt=""
           fill
           className="object-cover"
