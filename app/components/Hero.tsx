@@ -68,7 +68,7 @@ export function Hero() {
             href="#story"
             className="inline-flex items-center gap-2 px-8 py-3.5 bg-red text-white text-xs font-semibold tracking-widest uppercase rounded-md hover:bg-red-hover transition-colors duration-150"
           >
-            Discover 8BIKE
+            Discover EIGHT
           </a>
         </motion.div>
       </motion.div>

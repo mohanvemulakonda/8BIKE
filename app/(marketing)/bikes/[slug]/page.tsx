@@ -14,10 +14,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const bike = getBikeBySlug(slug);
-  if (!bike) return { title: "Bike Not Found | 8BIKE" };
+  if (!bike) return { title: "Bike Not Found | EIGHT" };
 
   return {
-    title: `${bike.name} | 8BIKE`,
+    title: `${bike.name} | EIGHT`,
     description: bike.description,
   };
 }

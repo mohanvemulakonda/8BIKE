@@ -26,7 +26,7 @@ export function HeroProduct() {
       >
         <Image
           src="/images/bike-road-black.jpg"
-          alt="8BIKE Carbon Pro 8.1"
+          alt="EIGHT Carbon Pro 8.1"
           fill
           className="object-contain"
           priority

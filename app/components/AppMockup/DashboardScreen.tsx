@@ -9,7 +9,7 @@ export function DashboardScreen() {
       <div className="flex items-center justify-between mb-5">
         <div className="flex items-center gap-2">
           <Monogram size={20} variant="white" />
-          <span className="font-display text-sm tracking-[4px]">8BIKE</span>
+          <span className="font-display text-sm tracking-[4px]">EIGHT</span>
         </div>
         <div className="w-7 h-7 rounded-full bg-[#1a1a1a] flex items-center justify-center">
           <span className="text-[9px] font-semibold text-white/60">MV</span>

@@ -1,5 +1,5 @@
 /**
- * Custom brand icons for 8BIKE.
+ * Custom brand icons for EIGHT.
  * Thin precise strokes, angular geometry, matching monogram aesthetic.
  * All icons render at 24x24 viewBox with 1.5px stroke.
  */

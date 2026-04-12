@@ -75,7 +75,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="border-t border-border py-5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[11px] text-text-disabled">
-            &copy; 2026 8BIKE GmbH. All rights reserved.
+            &copy; 2026 EIGHT GmbH. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <div className="flex gap-6 text-[11px] text-text-muted">

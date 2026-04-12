@@ -16,11 +16,11 @@ const bebas = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "8BIKE | Pure Ride. Nothing Else.",
+  title: "EIGHT | Pure Ride. Nothing Else.",
   description:
     "Premium road, mountain, and gravel bikes for riders who feel the difference. Pure ride. Nothing else.",
   keywords: [
-    "8BIKE",
+    "EIGHT",
     "performance bikes",
     "cycling",
     "carbon bikes",
@@ -28,10 +28,10 @@ export const metadata: Metadata = {
     "gravel bikes",
   ],
   openGraph: {
-    title: "8BIKE | Pure Ride. Nothing Else.",
+    title: "EIGHT | Pure Ride. Nothing Else.",
     description:
       "Premium road, mountain, and gravel bikes for riders who feel the difference. Pure ride. Nothing else.",
-    siteName: "8BIKE",
+    siteName: "EIGHT",
     type: "website",
   },
 };

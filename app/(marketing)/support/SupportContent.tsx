@@ -16,12 +16,12 @@ const categories = [
   {
     icon: IconWrench,
     title: "Maintenance",
-    desc: "Keep your 8BIKE running at peak performance. Service intervals, torque specs, and care instructions.",
+    desc: "Keep your EIGHT running at peak performance. Service intervals, torque specs, and care instructions.",
   },
   {
     icon: IconBook,
     title: "Assembly",
-    desc: "Step-by-step assembly instructions for your new 8BIKE. Includes torque specifications and tool requirements.",
+    desc: "Step-by-step assembly instructions for your new EIGHT. Includes torque specifications and tool requirements.",
   },
   {
     icon: IconBox,
@@ -36,7 +36,7 @@ const categories = [
   {
     icon: IconHelp,
     title: "FAQ",
-    desc: "Answers to the most common questions about 8BIKE products, ordering, and service.",
+    desc: "Answers to the most common questions about EIGHT products, ordering, and service.",
   },
 ];
 
@@ -54,7 +54,7 @@ export function SupportContent() {
       <PageHero
         tag="Support"
         title="HOW CAN WE HELP?"
-        description="Find answers, guides, and resources to get the most out of your 8BIKE."
+        description="Find answers, guides, and resources to get the most out of your EIGHT."
         compact
       />
 
@@ -90,7 +90,7 @@ export function SupportContent() {
             </h2>
             <p className="text-text-tertiary text-sm font-light leading-relaxed mb-10 max-w-xl">
               Use the chart below as a starting point. For a precise fit, we recommend visiting
-              an authorized 8BIKE dealer for a professional bike fitting.
+              an authorized EIGHT dealer for a professional bike fitting.
             </p>
           </ScrollReveal>
 

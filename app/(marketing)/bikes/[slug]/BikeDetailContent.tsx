@@ -178,7 +178,7 @@ export function BikeDetailContent({ bike }: Props) {
               READY TO RIDE?
             </h2>
             <p className="text-text-tertiary text-sm font-light max-w-md mx-auto leading-relaxed mb-8">
-              Contact your nearest 8BIKE dealer to configure your {bike.name} or
+              Contact your nearest EIGHT dealer to configure your {bike.name} or
               book a test ride.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

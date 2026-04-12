@@ -11,7 +11,7 @@ const contactMethods = [
   {
     icon: IconMail,
     title: "Email",
-    detail: "hello@8bike.de",
+    detail: "hello@eight.bike",
     desc: "For general inquiries and partnerships",
   },
   {
@@ -24,7 +24,7 @@ const contactMethods = [
     icon: IconPin,
     title: "Headquarters",
     detail: "Hamburg, Germany",
-    desc: "8BIKE GmbH, Hafenstrasse 42",
+    desc: "EIGHT GmbH, Hafenstrasse 42",
   },
 ];
 
@@ -186,11 +186,11 @@ export function ContactContent() {
                     Dealer Inquiries
                   </h3>
                   <p className="text-sm text-text-tertiary font-light leading-relaxed mb-3">
-                    Interested in becoming an authorized 8BIKE dealer? We're expanding
+                    Interested in becoming an authorized EIGHT dealer? We're expanding
                     our network across Europe and beyond.
                   </p>
                   <p className="text-sm text-text-secondary">
-                    dealers@8bike.de
+                    dealers@eight.bike
                   </p>
 
 

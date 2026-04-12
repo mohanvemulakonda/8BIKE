@@ -12,27 +12,27 @@ import { IconDownload, IconFile, IconImage } from "../../components/ui/Icon";
 const pressReleases = [
   {
     date: "March 2025",
-    title: "8BIKE Announces Global Expansion",
+    title: "EIGHT Announces Global Expansion",
     summary:
-      "8BIKE expands dealer network to 15 countries, bringing precision-built bikes to riders worldwide.",
+      "EIGHT expands dealer network to 15 countries, bringing precision-built bikes to riders worldwide.",
   },
   {
     date: "January 2025",
     title: "Aero 8.3 Wins IF Design Award",
     summary:
-      "The 8BIKE Aero 8.3 recognized for outstanding industrial design, citing its wind tunnel-optimized tube profiles and integrated cockpit.",
+      "The EIGHT Aero 8.3 recognized for outstanding industrial design, citing its wind tunnel-optimized tube profiles and integrated cockpit.",
   },
   {
     date: "October 2024",
     title: "New Mountain Line Launch",
     summary:
-      "8BIKE introduces four new mountain bikes, from the race-ready XC Race 8.0 to the gravity-focused Enduro 8.6.",
+      "EIGHT introduces four new mountain bikes, from the race-ready XC Race 8.0 to the gravity-focused Enduro 8.6.",
   },
   {
     date: "June 2024",
     title: "Hamburg University Wind Tunnel Partnership",
     summary:
-      "8BIKE partners with Hamburg University's aerospace wind tunnel facility for next-generation frame development.",
+      "EIGHT partners with Hamburg University's aerospace wind tunnel facility for next-generation frame development.",
   },
 ];
 
@@ -73,7 +73,7 @@ export function PressContent() {
             </h2>
             <p className="text-text-tertiary text-sm font-light leading-relaxed mb-10 max-w-xl">
               Download our brand assets for editorial and press use. For commercial
-              licensing inquiries, contact press@8bike.de.
+              licensing inquiries, contact press@eight.bike.
             </p>
           </ScrollReveal>
 
@@ -159,7 +159,7 @@ export function PressContent() {
             <p className="text-text-tertiary text-sm font-light max-w-md mx-auto leading-relaxed mb-2">
               For press inquiries, interview requests, and review samples:
             </p>
-            <p className="text-text-secondary text-base mb-8">press@8bike.de</p>
+            <p className="text-text-secondary text-base mb-8">press@eight.bike</p>
             <Button href="/contact">Get in Touch</Button>
           </ScrollReveal>
         </Container>

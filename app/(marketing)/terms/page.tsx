@@ -3,8 +3,8 @@ import { Container } from "../../components/ui/Container";
 
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | 8BIKE",
-  description: "8BIKE GmbH terms and conditions of use.",
+  title: "Terms & Conditions | EIGHT",
+  description: "EIGHT GmbH terms and conditions of use.",
 };
 
 export default function TermsPage() {
@@ -30,7 +30,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">1. General</h2>
               <p>
-                These Terms and Conditions govern your use of the 8BIKE website (8bike.de) and any
+                These Terms and Conditions govern your use of the EIGHT website (eight.bike) and any
                 purchases made through our authorized dealer network. By using this website, you agree
                 to these terms in full.
               </p>
@@ -49,7 +49,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">3. Ordering & Delivery</h2>
               <p>
-                8BIKE products are sold exclusively through our authorized dealer network. Orders
+                EIGHT products are sold exclusively through our authorized dealer network. Orders
                 placed through dealers are subject to the dealer's own terms and conditions. Delivery
                 times vary by model and region. Custom-configured bikes typically ship within 4-8 weeks.
               </p>
@@ -58,7 +58,7 @@ export default function TermsPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">4. Warranty</h2>
               <p>
-                All 8BIKE frames are covered by our lifetime warranty for the original purchaser.
+                All EIGHT frames are covered by our lifetime warranty for the original purchaser.
                 Components carry a 2-year warranty. Full warranty terms are available on our
                 warranty page. The warranty does not cover normal wear, crash damage, or unauthorized
                 modifications.
@@ -69,7 +69,7 @@ export default function TermsPage() {
               <h2 className="text-lg font-semibold text-white mb-4">5. Intellectual Property</h2>
               <p>
                 All content on this website — including text, images, logos, designs, and software —
-                is the property of 8BIKE GmbH and is protected by German and international copyright
+                is the property of EIGHT GmbH and is protected by German and international copyright
                 and trademark laws. Unauthorized use, reproduction, or distribution is prohibited.
               </p>
             </div>
@@ -77,9 +77,9 @@ export default function TermsPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">6. Limitation of Liability</h2>
               <p>
-                8BIKE GmbH provides this website and its content on an "as is" basis. We make no
+                EIGHT GmbH provides this website and its content on an "as is" basis. We make no
                 warranties regarding the completeness or accuracy of the content. To the maximum extent
-                permitted by law, 8BIKE GmbH is not liable for any indirect or consequential damages
+                permitted by law, EIGHT GmbH is not liable for any indirect or consequential damages
                 arising from the use of this website.
               </p>
             </div>
@@ -96,8 +96,8 @@ export default function TermsPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">8. Contact</h2>
               <p>
-                For questions regarding these terms, contact us at legal@8bike.de or write to:
-                8BIKE GmbH, Hafenstrasse 42, 20459 Hamburg, Germany.
+                For questions regarding these terms, contact us at legal@eight.bike or write to:
+                EIGHT GmbH, Hafenstrasse 42, 20459 Hamburg, Germany.
               </p>
             </div>
           </div>

@@ -3,8 +3,8 @@ import { Container } from "../../components/ui/Container";
 
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | 8BIKE",
-  description: "8BIKE GmbH privacy policy. How we collect, use, and protect your personal data.",
+  title: "Privacy Policy | EIGHT",
+  description: "EIGHT GmbH privacy policy. How we collect, use, and protect your personal data.",
 };
 
 export default function PrivacyPage() {
@@ -30,7 +30,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">1. Data Controller</h2>
               <p>
-                8BIKE GmbH, Hafenstrasse 42, 20459 Hamburg, Germany ("8BIKE", "we", "us")
+                EIGHT GmbH, Hafenstrasse 42, 20459 Hamburg, Germany ("EIGHT", "we", "us")
                 is the data controller responsible for processing your personal data in accordance
                 with the EU General Data Protection Regulation (GDPR).
               </p>
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
               <p>
                 Under GDPR, you have the right to access, rectify, erase, restrict processing, data
                 portability, and object to processing of your personal data. To exercise these rights,
-                contact us at privacy@8bike.de.
+                contact us at privacy@eight.bike.
               </p>
             </div>
 
@@ -121,8 +121,8 @@ export default function PrivacyPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">8. Contact</h2>
               <p>
-                For privacy-related inquiries, contact our Data Protection Officer at privacy@8bike.de
-                or write to: 8BIKE GmbH, Attn: Data Protection, Hafenstrasse 42, 20459 Hamburg,
+                For privacy-related inquiries, contact our Data Protection Officer at privacy@eight.bike
+                or write to: EIGHT GmbH, Attn: Data Protection, Hafenstrasse 42, 20459 Hamburg,
                 Germany.
               </p>
             </div>

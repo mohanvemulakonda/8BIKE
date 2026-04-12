@@ -11,17 +11,17 @@ const warranties = [
   {
     icon: IconShield,
     title: "Lifetime Frame Warranty",
-    desc: "Every 8BIKE carbon and aluminum frame is covered by our lifetime warranty for the original owner. This covers manufacturing defects in materials and workmanship.",
+    desc: "Every EIGHT carbon and aluminum frame is covered by our lifetime warranty for the original owner. This covers manufacturing defects in materials and workmanship.",
   },
   {
     icon: IconClock,
     title: "2-Year Component Warranty",
-    desc: "All 8BIKE-branded components (wheels, handlebars, seatposts) are covered for 2 years from the date of purchase against manufacturing defects.",
+    desc: "All EIGHT-branded components (wheels, handlebars, seatposts) are covered for 2 years from the date of purchase against manufacturing defects.",
   },
   {
     icon: IconWrench,
     title: "Crash Replacement Program",
-    desc: "Accidents happen. Our crash replacement program offers up to 40% off a replacement frame for registered 8BIKE owners, regardless of fault.",
+    desc: "Accidents happen. Our crash replacement program offers up to 40% off a replacement frame for registered EIGHT owners, regardless of fault.",
   },
 ];
 
@@ -31,20 +31,20 @@ const faq = [
     a: "The lifetime warranty covers defects in materials and workmanship of the frame and rigid fork for the original owner. Normal wear and tear, crash damage, improper assembly, and modifications are not covered.",
   },
   {
-    q: "How do I register my 8BIKE for warranty?",
+    q: "How do I register my EIGHT for warranty?",
     a: "Register your bike within 30 days of purchase at your authorized dealer or through our website. You'll need your frame serial number and proof of purchase.",
   },
   {
     q: "Is the warranty transferable?",
-    a: "The lifetime frame warranty applies to the original owner only. If you sell your 8BIKE, the new owner receives a 5-year limited warranty from the original purchase date.",
+    a: "The lifetime frame warranty applies to the original owner only. If you sell your EIGHT, the new owner receives a 5-year limited warranty from the original purchase date.",
   },
   {
     q: "How do I submit a warranty claim?",
-    a: "Contact your authorized 8BIKE dealer or reach out to our support team with photos of the issue, your frame serial number, and proof of purchase. We aim to process all claims within 10 business days.",
+    a: "Contact your authorized EIGHT dealer or reach out to our support team with photos of the issue, your frame serial number, and proof of purchase. We aim to process all claims within 10 business days.",
   },
   {
     q: "What is the crash replacement discount?",
-    a: "Registered 8BIKE owners can receive up to 40% off a replacement frame of the same model in the event of crash damage. Contact your dealer for details.",
+    a: "Registered EIGHT owners can receive up to 40% off a replacement frame of the same model in the event of crash damage. Contact your dealer for details.",
   },
 ];
 
@@ -54,7 +54,7 @@ export function WarrantyContent() {
       <PageHero
         tag="Warranty"
         title="BUILT TO LAST"
-        description="We stand behind every frame we build. That's why every 8BIKE comes with a lifetime frame warranty."
+        description="We stand behind every frame we build. That's why every EIGHT comes with a lifetime frame warranty."
         compact
       />
 

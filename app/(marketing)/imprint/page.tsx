@@ -4,8 +4,8 @@ import { Container } from "../../components/ui/Container";
 import { Monogram } from "../../components/Monogram";
 
 export const metadata: Metadata = {
-  title: "Imprint | 8BIKE",
-  description: "8BIKE GmbH legal imprint (Impressum) as required by German law.",
+  title: "Imprint | EIGHT",
+  description: "EIGHT GmbH legal imprint (Impressum) as required by German law.",
 };
 
 export default function ImprintPage() {
@@ -31,7 +31,7 @@ export default function ImprintPage() {
             <div>
               <h2 className="text-lg font-semibold text-white mb-4">Company</h2>
               <p>
-                8BIKE GmbH
+                EIGHT GmbH
                 <br />
                 Hafenstrasse 42
                 <br />
@@ -46,9 +46,9 @@ export default function ImprintPage() {
               <p>
                 Phone: +49 40 000 0000
                 <br />
-                Email: hello@8bike.de
+                Email: hello@eight.bike
                 <br />
-                Website: www.8bike.de
+                Website: www.eight.bike
               </p>
             </div>
 

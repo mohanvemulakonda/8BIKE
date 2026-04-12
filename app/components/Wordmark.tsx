@@ -23,7 +23,7 @@ export function Wordmark({
         variant === "dark" ? "text-white" : "text-[#111]"
       } ${className}`}
     >
-      8BIKE
+      EIGHT
     </span>
   );
 }

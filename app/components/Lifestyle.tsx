@@ -14,7 +14,7 @@ export function Lifestyle() {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
               <Image
                 src="/images/lifestyle-riders.jpg"
-                alt="Riders on 8BIKE cycles at sunset"
+                alt="Riders on EIGHT cycles at sunset"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -42,7 +42,7 @@ export function Lifestyle() {
             </ScrollReveal>
             <ScrollReveal delay={0.3}>
               <p className="text-text-tertiary text-sm md:text-base font-light leading-relaxed mb-6">
-                From alpine switchbacks to coastal flats — every 8BIKE is
+                From alpine switchbacks to coastal flats — every EIGHT is
                 built for the moment the wheels start turning.
               </p>
             </ScrollReveal>

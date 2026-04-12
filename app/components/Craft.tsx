@@ -41,7 +41,7 @@ export function Craft() {
 
             <ScrollReveal delay={0.3}>
               <p className="text-text-secondary text-sm md:text-base font-light leading-[2] mb-6">
-                Every 8BIKE carbon frame begins as sheets of T800 unidirectional
+                Every EIGHT carbon frame begins as sheets of T800 unidirectional
                 fiber. Each layer is cut, oriented, and placed by hand following
                 proprietary layup schedules developed over thousands of hours of
                 testing.

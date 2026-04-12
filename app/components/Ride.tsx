@@ -37,7 +37,7 @@ export function Ride() {
         <ScrollReveal delay={0.2}>
           <p className="text-text-secondary text-sm md:text-base font-light leading-[2] mb-6">
             From alpine switchbacks to Baltic coast flats. From Saturday morning
-            club rides to solo dawn efforts. 8BIKE is for the rider who knows
+            club rides to solo dawn efforts. EIGHT is for the rider who knows
             the difference between turning pedals and riding.
           </p>
         </ScrollReveal>

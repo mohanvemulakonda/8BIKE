@@ -54,7 +54,7 @@ export function HeroVideo() {
             animate={{ opacity: 1, letterSpacing: "20px" }}
             transition={{ duration: 1.5, delay: 0.3 }}
           >
-            8BIKE
+            EIGHT
           </motion.h1>
 
           <motion.div

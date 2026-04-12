@@ -78,7 +78,7 @@ export function EngineeringContent() {
           <SectionHeader
             tag="The Process"
             title="FROM CONCEPT TO CARBON"
-            description="Every 8BIKE frame goes through a rigorous four-stage engineering process before it reaches your hands."
+            description="Every EIGHT frame goes through a rigorous four-stage engineering process before it reaches your hands."
             className="mb-16"
           />
 

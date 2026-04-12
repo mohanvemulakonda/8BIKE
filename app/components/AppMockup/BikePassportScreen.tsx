@@ -64,9 +64,9 @@ export function BikePassportScreen() {
         <p className="text-[8px] tracking-[2px] uppercase text-white/30 mb-3">Service History</p>
         <div className="space-y-3">
           {[
-            { date: "12 Mar 2026", desc: "Full service", shop: "8BIKE Hamburg" },
-            { date: "08 Jan 2026", desc: "Brake bleed", shop: "8BIKE Hamburg" },
-            { date: "15 Oct 2025", desc: "First service", shop: "8BIKE Hamburg" },
+            { date: "12 Mar 2026", desc: "Full service", shop: "EIGHT Hamburg" },
+            { date: "08 Jan 2026", desc: "Brake bleed", shop: "EIGHT Hamburg" },
+            { date: "15 Oct 2025", desc: "First service", shop: "EIGHT Hamburg" },
           ].map((s) => (
             <div key={s.date} className="flex items-start gap-3">
               <div className="w-1.5 h-1.5 rounded-full bg-[#DD0000] mt-1 shrink-0" />

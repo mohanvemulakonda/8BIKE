@@ -9,9 +9,9 @@ import { IconPin } from "../../components/ui/Icon";
 import { lineup } from "../../data/bikes";
 
 const locations = [
-  { city: "Hamburg", country: "Germany", address: "8BIKE HQ, Hafenstrasse 42" },
-  { city: "Munich", country: "Germany", address: "8BIKE Store, Marienplatz 8" },
-  { city: "Berlin", country: "Germany", address: "8BIKE Pop-up, Unter den Linden 21" },
+  { city: "Hamburg", country: "Germany", address: "EIGHT HQ, Hafenstrasse 42" },
+  { city: "Munich", country: "Germany", address: "EIGHT Store, Marienplatz 8" },
+  { city: "Berlin", country: "Germany", address: "EIGHT Pop-up, Unter den Linden 21" },
   { city: "Zurich", country: "Switzerland", address: "Velohaus Zurich, Bahnhofstrasse 15" },
   { city: "Amsterdam", country: "Netherlands", address: "Cycle Lab, Prinsengracht 88" },
   { city: "Vienna", country: "Austria", address: "RadWerk Wien, Mariahilfer Strasse 33" },
@@ -25,7 +25,7 @@ export function TestRideContent() {
       <PageHero
         tag="Test Ride"
         title="FEEL THE DIFFERENCE"
-        description="Numbers tell part of the story. The road tells the rest. Book a test ride and experience 8BIKE precision firsthand."
+        description="Numbers tell part of the story. The road tells the rest. Book a test ride and experience EIGHT precision firsthand."
         image="/images/hero-mountain-road.jpg"
       />
 

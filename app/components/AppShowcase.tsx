@@ -7,12 +7,14 @@ import { PhoneFrame } from "./AppMockup/PhoneFrame";
 import { DashboardScreen } from "./AppMockup/DashboardScreen";
 import { RideScreen } from "./AppMockup/RideScreen";
 import { BikePassportScreen } from "./AppMockup/BikePassportScreen";
-import { Smartphone, Map, Shield, Wrench, Users, Bell } from "lucide-react";
+import { FindMyBikeScreen } from "./AppMockup/FindMyBikeScreen";
+import { Smartphone, Map, Shield, Wrench, Users, Bell, MapPin } from "lucide-react";
 
 const screens = [
   { id: "dashboard", label: "Dashboard", component: DashboardScreen },
   { id: "ride", label: "Ride", component: RideScreen },
-  { id: "passport", label: "Bike Passport", component: BikePassportScreen },
+  { id: "find", label: "Find My Bike", component: FindMyBikeScreen },
+  { id: "passport", label: "Passport", component: BikePassportScreen },
 ];
 
 const features = [
@@ -32,6 +34,11 @@ const features = [
     desc: "Component wear tracking and service reminders so you never miss a check-up.",
   },
   {
+    icon: MapPin,
+    title: "Find My Bike",
+    desc: "Real-time GPS location, movement alerts, ring your bike, and share location with others.",
+  },
+  {
     icon: Bell,
     title: "Crash Detection",
     desc: "Automatic crash detection with emergency alerts sent to your chosen contacts.",
@@ -39,7 +46,7 @@ const features = [
   {
     icon: Users,
     title: "Rider Community",
-    desc: "Discover local routes, join group rides, and connect with 8BIKE riders near you.",
+    desc: "Discover local routes, join group rides, and connect with EIGHT riders near you.",
   },
   {
     icon: Smartphone,
@@ -58,7 +65,7 @@ export function AppShowcase() {
         {/* Header */}
         <ScrollReveal>
           <p className="text-xs tracking-[6px] uppercase text-red font-medium mb-4">
-            8BIKE Connect
+            EIGHT Connect
           </p>
         </ScrollReveal>
         <ScrollReveal delay={0.1}>
@@ -70,7 +77,7 @@ export function AppShowcase() {
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
           <p className="max-w-xl text-text-tertiary text-sm md:text-base font-light leading-relaxed mb-16">
-            Track rides, manage your bike, and connect with riders — 8BIKE Connect
+            Track rides, manage your bike, and connect with riders — EIGHT Connect
             is the companion app that makes every ride count.
           </p>
         </ScrollReveal>

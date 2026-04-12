@@ -39,7 +39,7 @@ export function About() {
         </ScrollReveal>
         <ScrollReveal delay={0.2}>
           <p className="max-w-xl text-text-tertiary text-sm md:text-base font-light leading-relaxed mb-16">
-            8BIKE exists for one reason — to build bikes that disappear
+            EIGHT exists for one reason — to build bikes that disappear
             beneath you, so all you feel is the road, the climb, and
             the ride.
           </p>

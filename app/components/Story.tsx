@@ -30,7 +30,7 @@ export function Story() {
 
         <ScrollReveal delay={0.3}>
           <p className="text-text-tertiary text-sm md:text-base font-light leading-[2] mb-8">
-            8BIKE was born with a single conviction: a bicycle frame
+            EIGHT was born with a single conviction: a bicycle frame
             should be invisible. You shouldn&apos;t think about it. You should
             think about the road, the climb, the descent. The frame&apos;s job is to
             disappear -- to transfer every watt, absorb every vibration, and

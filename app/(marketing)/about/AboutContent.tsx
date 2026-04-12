@@ -27,7 +27,7 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2018", event: "8BIKE founded in Hamburg, Germany" },
+  { year: "2018", event: "EIGHT founded in Hamburg, Germany" },
   { year: "2019", event: "First carbon frame prototype completed" },
   { year: "2020", event: "Carbon Pro 8.1 enters production" },
   { year: "2021", event: "Mountain and gravel lines launched" },
@@ -43,7 +43,7 @@ export function AboutContent() {
       <PageHero
         tag="About"
         title="BUILT FOR RIDERS"
-        description="8BIKE exists for one reason — to build bikes that disappear beneath you, so all you feel is the road, the climb, and the ride."
+        description="EIGHT exists for one reason — to build bikes that disappear beneath you, so all you feel is the road, the climb, and the ride."
         image="/images/hero-lifestyle.jpg"
       />
 
@@ -60,7 +60,7 @@ export function AboutContent() {
             <div>
               <ScrollReveal>
                 <p className="text-text-secondary text-base md:text-lg font-light leading-[1.9] mb-6">
-                  We started 8BIKE with a simple question: what would a bike look like
+                  We started EIGHT with a simple question: what would a bike look like
                   if every decision was made by riders, for riders — with no
                   compromises for marketing or trends?
                 </p>
@@ -90,7 +90,7 @@ export function AboutContent() {
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/3]">
                   <Image
                     src="/images/lifestyle-riders.jpg"
-                    alt="Riders on 8BIKE cycles at sunset"
+                    alt="Riders on EIGHT cycles at sunset"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 50vw"
