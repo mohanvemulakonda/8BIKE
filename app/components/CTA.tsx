@@ -32,7 +32,7 @@ export function CTA() {
 
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="#contact"
+                href="/configure"
                 className="inline-flex items-center gap-2 px-10 py-4 bg-red text-white text-xs font-semibold tracking-widest uppercase rounded-md hover:bg-red-hover transition-colors duration-150"
               >
                 Configure Your Bike

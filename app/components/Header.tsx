@@ -10,6 +10,7 @@ import { Monogram } from "./Monogram";
 
 const links = [
   { label: "Bikes", href: "/bikes" },
+  { label: "Configure", href: "/configure" },
   { label: "Engineering", href: "/engineering" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
