@@ -10,7 +10,7 @@ export function Ride() {
       {/* Background lifestyle image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/cyclist-victory.jpg"
+          src="/images/cyclist-overhead-epic.jpg"
           alt=""
           fill
           className="object-cover"
