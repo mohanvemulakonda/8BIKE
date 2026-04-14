@@ -45,7 +45,7 @@ export function HeroVideo() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="mb-6"
           >
-            <Monogram size={56} variant="white" className="mx-auto" />
+            <Monogram size={56} variant="red" className="mx-auto" />
           </motion.div>
 
           <motion.h1
@@ -54,7 +54,7 @@ export function HeroVideo() {
             animate={{ opacity: 1, letterSpacing: "20px" }}
             transition={{ duration: 1.5, delay: 0.3 }}
           >
-            EIGHT
+            E<span className="text-red">I</span>GHT
           </motion.h1>
 
           <motion.div

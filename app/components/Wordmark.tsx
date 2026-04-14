@@ -17,13 +17,15 @@ export function Wordmark({
   variant = "dark",
   className = "",
 }: WordmarkProps) {
+  const color = variant === "dark" ? "text-white" : "text-[#111]";
+
   return (
     <span
-      className={`font-display inline-block -skew-x-[8deg] ${sizes[size]} ${
-        variant === "dark" ? "text-white" : "text-[#111]"
-      } ${className}`}
+      className={`font-display inline-block -skew-x-[8deg] ${sizes[size]} ${className}`}
     >
-      EIGHT
+      <span className={color}>E</span>
+      <span className="text-red">I</span>
+      <span className={color}>GHT</span>
     </span>
   );
 }

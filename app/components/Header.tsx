@@ -50,7 +50,7 @@ export function Header() {
             >
               Get in Touch
             </Link>
-            <Monogram size={28} variant="white" />
+            <Monogram size={28} variant="red" />
           </div>
 
           {/* Mobile toggle */}

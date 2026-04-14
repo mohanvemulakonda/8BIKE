@@ -83,7 +83,7 @@ export function Footer() {
               <Link href="/terms" className="hover:text-white transition-colors">Terms</Link>
               <Link href="/imprint" className="hover:text-white transition-colors">Imprint</Link>
             </div>
-            <Monogram size={32} variant="white" />
+            <Monogram size={32} variant="red" />
           </div>
         </div>
 
