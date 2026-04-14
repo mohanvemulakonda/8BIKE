@@ -1,6 +1,7 @@
 "use client";
 
 import { ScrollReveal, Stagger, StaggerItem } from "./ScrollReveal";
+import { MonogramWatermark, MonogramAccent } from "./MonogramPattern";
 
 
 const values = [
@@ -23,7 +24,8 @@ const values = [
 
 export function About() {
   return (
-    <section id="about" className="py-24 md:py-32 px-5">
+    <section id="about" className="py-24 md:py-32 px-5 relative overflow-hidden">
+      <MonogramWatermark position="right" size={350} />
       <div className="mx-auto max-w-[var(--max-width)]">
         <ScrollReveal>
           <p className="text-xs tracking-[6px] uppercase text-red font-medium mb-4">

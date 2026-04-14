@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { ScrollReveal } from "./ScrollReveal";
+import { MonogramPatternBg } from "./MonogramPattern";
 
 
 const specs = [
@@ -13,7 +14,8 @@ const specs = [
 
 export function Engineering() {
   return (
-    <section id="engineering" className="py-24 md:py-32">
+    <section id="engineering" className="py-24 md:py-32 relative overflow-hidden">
+      <MonogramPatternBg />
       {/* Full-bleed detail image */}
       <ScrollReveal>
         <div className="relative w-full aspect-[3/1] md:aspect-[4/1] overflow-hidden">

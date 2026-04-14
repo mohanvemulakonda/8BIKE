@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MonogramWatermark } from "./MonogramPattern";
 import { motion, AnimatePresence } from "framer-motion";
 import { ScrollReveal } from "./ScrollReveal";
 
@@ -14,7 +15,8 @@ export function Bikes() {
   const series = lineup[activeTab];
 
   return (
-    <section id="bikes" className="py-32 md:py-40">
+    <section id="bikes" className="py-32 md:py-40 relative overflow-hidden">
+      <MonogramWatermark position="left" size={300} />
       <div className="mx-auto max-w-[var(--max-width)] px-5">
         <ScrollReveal>
           <p className="text-xs tracking-[6px] uppercase text-red font-medium mb-4">

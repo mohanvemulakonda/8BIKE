@@ -1,29 +1,64 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState, useRef, useCallback } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import { FlagBar } from "./FlagBar";
 import { Monogram } from "./Monogram";
 import { ArrowDown } from "lucide-react";
 
+const heroVideos = [
+  "/videos/hero-cycling.mp4",
+  "/videos/hero-aerial.mp4",
+  "/videos/hero-drone.mp4",
+  "/videos/hero-road.mp4",
+  "/videos/hero-speed.mp4",
+  "/videos/hero-training.mp4",
+];
+
 export function HeroVideo() {
+  const [currentVideo, setCurrentVideo] = useState(0);
+  const [fading, setFading] = useState(false);
+  const nextVideo = (currentVideo + 1) % heroVideos.length;
+
+  const onVideoEnd = useCallback(() => {
+    setFading(true);
+    setTimeout(() => {
+      setCurrentVideo((prev) => (prev + 1) % heroVideos.length);
+      setFading(false);
+    }, 1500);
+  }, []);
+
   return (
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
-      {/* Background — using image as video placeholder with Ken Burns effect */}
-      <motion.div
-        className="absolute inset-0"
-        animate={{ scale: [1, 1.08, 1] }}
-        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+      {/* Current video */}
+      <div
+        className="absolute inset-0 transition-opacity duration-[1500ms]"
+        style={{ opacity: fading ? 0 : 1 }}
       >
-        <Image
-          src="/images/hero-mountain-road.jpg"
-          alt=""
-          fill
-          className="object-cover"
-          priority
-          quality={85}
+        <video
+          key={currentVideo}
+          autoPlay
+          muted
+          playsInline
+          onEnded={onVideoEnd}
+          className="absolute inset-0 w-full h-full object-cover"
+          poster="/images/hero-mountain-road.jpg"
+          src={heroVideos[currentVideo]}
         />
-      </motion.div>
+      </div>
+
+      {/* Next video — preloaded underneath, visible during fade */}
+      <div className="absolute inset-0" style={{ zIndex: -1 }}>
+        <video
+          key={`next-${nextVideo}`}
+          autoPlay
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+          src={heroVideos[nextVideo]}
+        />
+      </div>
 
       {/* Cinematic letterbox bars */}
       <div className="absolute top-0 left-0 right-0 h-[12vh] bg-gradient-to-b from-black/60 to-transparent z-10" />
@@ -112,15 +147,6 @@ export function HeroVideo() {
         </motion.div>
       </motion.div>
 
-      {/* Muted video play hint */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2 }}
-        className="absolute bottom-8 right-8 z-20 text-[10px] tracking-[2px] uppercase text-white/30"
-      >
-        Video would loop here
-      </motion.div>
     </section>
   );
 }
