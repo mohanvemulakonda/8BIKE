@@ -1,64 +1,29 @@
 "use client";
 
-import { useState, useRef, useCallback } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import { FlagBar } from "./FlagBar";
 import { Monogram } from "./Monogram";
 import { ArrowDown } from "lucide-react";
 
-const heroVideos = [
-  "/videos/hero-cycling.mp4",
-  "/videos/hero-aerial.mp4",
-  "/videos/hero-drone.mp4",
-  "/videos/hero-road.mp4",
-  "/videos/hero-speed.mp4",
-  "/videos/hero-training.mp4",
-];
-
 export function HeroVideo() {
-  const [currentVideo, setCurrentVideo] = useState(0);
-  const [fading, setFading] = useState(false);
-  const nextVideo = (currentVideo + 1) % heroVideos.length;
-
-  const onVideoEnd = useCallback(() => {
-    setFading(true);
-    setTimeout(() => {
-      setCurrentVideo((prev) => (prev + 1) % heroVideos.length);
-      setFading(false);
-    }, 1500);
-  }, []);
-
   return (
     <section className="relative h-screen flex flex-col items-center justify-center overflow-hidden">
-      {/* Current video */}
-      <div
-        className="absolute inset-0 transition-opacity duration-[1500ms]"
-        style={{ opacity: fading ? 0 : 1 }}
+      {/* Background image with Ken Burns */}
+      <motion.div
+        className="absolute inset-0"
+        animate={{ scale: [1, 1.06, 1] }}
+        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
       >
-        <video
-          key={currentVideo}
-          autoPlay
-          muted
-          playsInline
-          onEnded={onVideoEnd}
-          className="absolute inset-0 w-full h-full object-cover"
-          poster="/images/hero-mountain-road.jpg"
-          src={heroVideos[currentVideo]}
+        <Image
+          src="/images/hero-victory.jpg"
+          alt=""
+          fill
+          className="object-cover"
+          priority
+          quality={85}
         />
-      </div>
-
-      {/* Next video — preloaded underneath, visible during fade */}
-      <div className="absolute inset-0" style={{ zIndex: -1 }}>
-        <video
-          key={`next-${nextVideo}`}
-          autoPlay
-          muted
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-          src={heroVideos[nextVideo]}
-        />
-      </div>
+      </motion.div>
 
       {/* Cinematic letterbox bars */}
       <div className="absolute top-0 left-0 right-0 h-[12vh] bg-gradient-to-b from-black/60 to-transparent z-10" />
